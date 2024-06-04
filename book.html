@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tour Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Book Your Tour</h1>
+    <form action="book.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br>
+        
+        <label for="tour">Select Tour:</label>
+        <select name="tour" required>
+            <option value="Coimbatore">Coimbatore</option>
+			<option value="Chennai">Chennai</option>
+            <option value="Tenkasi">Tenkasi</option>
+            <option value="Tirunelveli">Tirunelveli</option>
+            <option value="Madurai">Madurai</option>
+			<option value="Thanjavor">Thanjavor</option>
+			 <option value="Kanyakumari">Kanyakumari</option>
+			  <option value="Kodaikanal">Kodaikanal<option>
+            <!-- Add more tour options here -->
+        </select><br>
+        
+        <label for="date">Date:</label>
+        <input type="date" name="date" required><br>
+		<label for="contactno">Contact no</label>
+		<input type="text" name="cno" required><br>        
+        <input type="submit" value="Book Now">
+			<a href="homepro.html" class="btn">Back To Home</a>
+    </form>
+</body>
+</html>
