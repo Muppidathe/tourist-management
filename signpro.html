@@ -1,0 +1,90 @@
+<html>
+<head>
+<style>
+body{
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+font-family:sans-serif;
+text-align:center;
+background-image:url("sign.jpeg");
+}
+#container{
+color:#fff;
+margin:100px auto;
+width:400px;
+text-align:center;
+margin-top:100px;
+}
+#container input{
+height:45px;
+border:none;
+outline:none;
+margin-top:10px;
+text-align:center;
+font-size:15px;
+border-radius:10px;
+border:1px solid gray;
+}
+td{
+color:white;
+text-align:center;
+}
+#containerform{
+margin-left:100px;
+text-align:center;
+}
+#container a{
+margin-right:100px;
+text-decoration:none;
+color:#fff;
+text-align:center;
+}
+#container radio{
+margin-left:15px
+height:15px;
+text-align:center;
+}
+input[type=submit]{
+background-color:rgb(80,75,197);
+color:#fff;
+width:100px;
+text-align:center;
+margin-right:10px;
+}
+h1{
+padding-right:20px;
+color:white;
+}
+p{
+padding-left:56px;
+font-weight:bold;
+}
+</style>
+<title>SIGN UP</title>
+</head>
+<body>
+<div id="container">
+<h1>SIGN UP</h1>
+<form name="sign up" method="POST" action="signn.php">
+<table>
+<center>
+<tr><td><input type="email" name="email" placeholder="Enter Email" required/>
+</td></tr>
+<tr><td><input type="text" name="uname" placeholder="Enter username" required/>
+</td></tr>
+<tr><td><input type="text" name="pno" placeholder="Enter Phone number" required/>
+</td></tr>
+<tr><td><input type="password" name="password" placeholder="Enetr password" required/>
+</td></tr>
+<tr><td><input type="password" name="confirm" placeholder="Confirm password" required/>
+</td></tr>
+<tr><td><input type="submit" name="sumbit" value="submit" required/><br><br>
+</td></tr>
+<tr><td><p>Already have an account?<a href="loginpro.html"><u>login</u></a></p</td></tr>
+</center>
+</table>
+</form>
+</div>
+</body>
+</html>

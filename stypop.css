@@ -1,0 +1,68 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.photo-gallery {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+gap: 16px;
+padding: 16px;
+margin:20px;
+margin-top:0px;
+}
+.photo-item {
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+transition: transform 0.2s ease-in-out;
+}
+.photo-item:hover {
+transform: scale(1.05);
+}
+.photo-item img {
+width:100%;
+height: auto;
+display: block;
+}
+.photo-caption {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 8px;
+background-color: rgba(0, 0, 0, 0.7);
+color: #fff;
+text-align: center;
+}
+p{
+color:grey;
+font-family:cursive;
+padding:20px;
+padding-top:0px;
+
+}
+
+.bton p{
+color:#f27507;
+font-family: cursive;
+padding:10px;
+padding-top:0px;
+
+}
+.bton a{
+display:inline-block;
+background-color:#ff6600;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+texansition:background-color:0.3s;
+margin-top:20px;
+text-align:center;
+margin:5px;
+}
+tr
+.bton a:hover{
+background-color:#e05500;
+}

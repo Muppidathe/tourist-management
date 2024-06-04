@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <title>Payment Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="pay.php" method="post">
+		    <h1>Card(debit/credit)</h1>
+            <label for="amount">Amount:</label>
+            <input type="text" name="amount" id="amount" value="10,000">
+
+            <label for="cardno">Card Number:</label>
+            <input type="text" name="cardno" id="card_number" pattern="\d{16}" required>
+
+            <label for="cardexp">Card Expiry (MM/YY):</label>
+            <input type="text" name="cardexp" id="card_expiry" pattern="\d{2}/\d{2}" required>
+
+            <label for="cardcvv">Card CVV:</label>
+            <input type="text" name="cardcvv" id="card_cvv" pattern="\d{3}" required>
+
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
